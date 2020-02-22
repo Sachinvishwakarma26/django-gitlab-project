@@ -9,3 +9,10 @@ kombu==4.4.0
 psycopg2==2.7.7
 pytz==2018.9
 vine==1.2.0
+POSTGRES_DB=postgres
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+CELERY_BROKER_URL=amqp://rabbitmq:rabbitmq@rabbit:5672/
+DJANGO_SETTINGS_MODULE=conf.settings
